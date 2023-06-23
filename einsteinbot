@@ -1,11 +1,11 @@
 <html>
 <style type='text/css'>
 	.embeddedServiceHelpButton .helpButton .uiButton {
-		background-color: #005290;
+		background-color: #8B0BF4;
 		font-family: "Arial", sans-serif;
 	}
 	.embeddedServiceHelpButton .helpButton .uiButton:focus {
-		outline: 1px solid #005290;
+		outline: 1px solid #8B0BF4;
 	}
 </style>
 
@@ -35,16 +35,16 @@
 
 		embedded_svc.init(
 			'https://accentureep10ipstelcoplay.my.salesforce.com',
-			'https://accentureep10ipstelcoplay.my.salesforce-sites.com/liveAgentSetupFlow',
+			'https://accentureep10ipstelcoplay.my.site.com/',
 			gslbBaseURL,
 			'00D4x000007JWl6',
-			'Chat_V2',
+			'Telco_Play_Bot',
 			{
 				baseLiveAgentContentURL: 'https://c.la3-c1-ia5.salesforceliveagent.com/content',
 				deploymentId: '5724x000000p57w',
-				buttonId: '5734x000000p5fA',
+				buttonId: '5734x000000pUVI',
 				baseLiveAgentURL: 'https://d.la3-c1-ia5.salesforceliveagent.com/chat',
-				eswLiveAgentDevName: 'Chat_V2',
+				eswLiveAgentDevName: 'Telco_Play_Bot',
 				isOfflineSupportEnabled: true
 			}
 		);
